@@ -44,7 +44,7 @@
                         </g>
                     </svg>
                 </div>
-
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores dicta veniam ex, reiciendis recusandae qui, eius, incidunt sed corrupti voluptatum? Dolorem laborum sequi ratione at sunt, quisquam soluta perspiciatis.
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
