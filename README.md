@@ -18,4 +18,8 @@
       echo 'false';}<br> </mark> on peut le ecrire dans blade comme ca <br> <mark>@if(true)<br> 
       true <br> @else <br> false <br> @endif <mark> <br> </td>
     </tr>
+    <tr>
+      <td>Jour: 4 <br> 20/02/2025</td>
+      <td>Pour ce jour la J'ai documenter plus sur blade et j'ai connu que il exists l'heritage dans blade et je le utiliser pour le navbar et le footer etant donnée que je les utiliser pleusieurs fois puis pour les declarer a titre d'exemple dans la page d'admin on ecrire <mark>@extends('nom-de-dossier.nom-de-fichier')<mark> ici pour le nom dossier on le ecrit lorsque les compenents mere ont localiser dans un dossier puis un point puis le nom de fichier sauf l'extension. et aussi j'ai connu que il ya des dirictives dans blade comme @yield et @section qui sont utiliser pour modifier le contenu dans la vue par une maniere dynamique a titre d'exemple le fichier principale navbar contient le code de syntaxe d'html donc lorsque a autre fichier heriter le navbar d'apres le fichier globale le tag titre dans le head il est pas changable par le titre de la page, sa et le role de @yield et @section en effet que dans le fichier navbar on pose ce code dans le tag title: <mark><\title>@yield('titre')<\title> </mark> pour ca on a crée un variable qui va attendre leur valeur pour la placer dans title tag puis on passe a quelqu'un fichier qui heriter depuis ce fichier et on ecrit <mark> @section('titre') <br> le titre de page <br>@endsection </mark> <br>. ensuit apres midi j'ai passe pour la documentation sur les controllers dans laravel </td>
+    </tr>
 </table>

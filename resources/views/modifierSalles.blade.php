@@ -1,9 +1,14 @@
 @extends('layouts.navbar-footer')
 
 @section('title')
-Acceuil
+Modifier Salles
 @endsection
 
 @section('content')
-Content
+
+
+<div class="h-screen flex items-center bg-gray-700">
+
+</div>
+
 @endsection

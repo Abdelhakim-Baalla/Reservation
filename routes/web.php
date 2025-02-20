@@ -1,18 +1,19 @@
 <?php
-
+use App\Http\Controllers\SallesController;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('reservation', function(){
+  return view('reservation');
+});
+
+Route::controller(SallesController::class)->group(function(){
+  Route::get('salles', 'salles');
+  Route::get('salles/creeSalle', 'creeSalle');
+  Route::get('salles/modifierSalle/{id}', 'modifierSalle');
+  Route::get('salles/supprimerSalle/{id}', 'supprimerSalle');
 });
