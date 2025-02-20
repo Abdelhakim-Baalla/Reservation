@@ -26,6 +26,7 @@
           Route::get('salles/modifierSalle/{id}', 'modifierSalle'); <br>
           Route::get('salles/supprimerSalle/{id}', 'supprimerSalle'); <br>
           }); <br> </mark> dans ce exemple J'ai crée un group de controlleur SallesController qui contient les cas primaire possible
-          de route qui va redirecter l'utilisateur vers le controlleur SallesController mais dans chaque cas il va effuctuer un fonction selectioner dans le route</td>
+          de route qui va redirecter l'utilisateur vers le controlleur SallesController mais dans chaque cas il va effuctuer un fonction selectioner dans le route <br> 
+          puis je pass a les migration et je connu sur les migration que se sont une schema des tableaux existant dans notre base de donnée et aussi que lorsque on exécuter la commande <mark>php artisan migrate</mark> tout les tables existe dans le dossier migrations ont ajouter a notre base de donnée si ces table n'existe pas et la commande <mark> php artisan migrate:status</mark>il ne donne des information sur l'existance de la table crée dans le dossier migration dans la base de donnée </td>
     </tr>
 </table>
