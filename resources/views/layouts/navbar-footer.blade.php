@@ -6,12 +6,15 @@
     <title>BookiReserve - @yield('title')</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=91840&format=png&color=ffffff" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
 
 
-<nav class="bg-white border-gray-200 dark:bg-gray-900">
+<nav class="bg-white border-gray-200 dark:bg-gray-900 font-[Outfit]">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img src="https://img.icons8.com/?size=100&id=91840&format=png&color=ffffff" class="h-8" alt="Flowbite Logo" />
@@ -32,7 +35,7 @@
           <a href="/salles" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Salles</a>
         </li>
         <li>
-          <a href="/reservation" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Reservation</a>
+          <a href="/client/reservation" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Reservation</a>
         </li>
       </ul>
     </div>
@@ -40,7 +43,7 @@
 </nav>
 
 </header>
-<main class="h-screen">
+<main class=" bg-gray-700 font-[Outfit] overflow-y-scroll h-screen">
   @yield('content')
 </main>
 
@@ -48,7 +51,7 @@
 
 
 
-<footer class="bg-white shadow-sm dark:bg-gray-900">
+<footer class="bg-white shadow-sm dark:bg-gray-900 font-[Outfit]">
   <div class="w-full  mx-auto p-4 md:py-8">
       <div class="sm:flex sm:items-center sm:justify-between">
           <a href="/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
